@@ -1459,7 +1459,14 @@ background-attachment: fixed;
 /********* Footer CSS **********/
 /*******************************/
 
-.gst{
+.gst p{
+    margin: 2px;
+    color:  #e0b838;
+    font-size:20px;
+    font-weight: 700;
+}
+
+.gst {
     margin: 2px;
     color:  #e0b838;
     font-size:20px;
