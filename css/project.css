@@ -1,0 +1,264 @@
+
+
+
+/* <<<<<<<<<<proect>>>>>> */
+
+section h3 {
+    font-size: 46px;
+}
+
+@media (max-width: 576px) {
+    section h3 {
+        font-size: 18px;
+    }
+
+    section p {
+        font-size: 14px;
+    }
+}
+
+
+
+body {
+    color: #666666;
+    background: #dddddd;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2, 
+h3, 
+h4,
+h5, 
+h6 {
+    color: #030f27;
+}
+
+a {
+    color: #666666;
+    transition: .3s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #fdbe33;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: #fdbe33;
+    color: #121518;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 22px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 9;
+}
+
+.back-to-top:hover {
+    color: #fdbe33;
+    background: #121518;
+}
+
+.back-to-top i {
+    padding-top: 10px;
+}
+
+.btn {
+    transition: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <<<<<<<<<page header>>>>>>>>>> */
+.page-header {
+    position: relative;
+
+background-image: url("../img/carousel-3.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+background-attachment: no-repeat;
+
+    min-height:350px;
+    padding: 80px 0;
+    color: #fff;
+}
+
+/* Overlay for better text visibility */
+.page-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.page-header .container {
+    position: relative;
+    z-index: 2;
+}
+
+.page-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+.breadcrumb-custom a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.breadcrumb-custom a:hover {
+    color: #f1c40f;
+}
+
+
+
+/* <<<< no1>>>>>>>>> */
+
+@media (max-width: 576px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+
+/* <<<< no1>>>>>>>>> */
+
+
+/* <<<<<<< our services??????? */
+
+.bg-light1{
+    background-image: url("../img/background.jpg"); /* adjust path if needed */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+background-attachment: no-repeat;
+
+}
+
+
+.check1{
+    color: #f4a000;
+ 
+
+}
+
+
+.service-box {
+    background: #fff;
+    border-radius: 6px;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    cursor: pointer;
+}
+
+/* HOVER EFFECT */
+.service-box:hover {
+    background: blue; /* your theme color (yellow) */
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* ICON COLOR */
+.service-box i {
+    color: #333;
+    transition: 0.3s;
+}
+
+.service-box:hover i {
+    color: #fff;
+}
+
+/* HEADING COLOR */
+.service-box h5 {
+    color:  #f4a000;
+    transition: 0.3s;
+}
+
+.service-box:hover h5 {
+    color: #fff;
+}
+
+/* PARAGRAPH COLOR */
+.service-box p {
+    transition: 0.3s;
+}
+
+.service-box:hover p {
+    color: #fff !important;
+}
+
+/* OPTIONAL: underline */
+.title-underline {
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #f4b400;
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+
+
+/* <<<<<<<<<<<< project text>>>>>>>> */
+
+.proejcttext{
+    color:  #f4a000;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: start;
+
+}
+
+
+.proejcttext1{
+     text-align: start;
+   
+}
+
+
+
+

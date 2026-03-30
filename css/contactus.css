@@ -1,0 +1,320 @@
+/*******************************/
+/********* General CSS *********/
+/*******************************/
+body {
+    color: #666666;
+    background: #dddddd;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2, 
+h3, 
+h4,
+h5, 
+h6 {
+    color: #030f27;
+}
+
+a {
+    color: #666666;
+    transition: .3s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #fdbe33;
+    outline: none;
+    text-decoration: none;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: #fdbe33;
+    color: #121518;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 22px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 9;
+}
+
+.back-to-top:hover {
+    color: #fdbe33;
+    background: #121518;
+}
+
+.back-to-top i {
+    padding-top: 10px;
+}
+
+.btn {
+    transition: .3s;
+}
+
+
+
+/* <<<<<<<<<< navbaar csss start>>>>>>>>> */
+/* Navbar Background */
+
+
+
+/* Default Transparent Navbar */
+.navbar-custom {
+    background: transparent;
+    transition: all 0.4s ease;
+    padding: 15px 0;
+}
+
+/* On Scroll - Black Navbar */
+.navbar-custom.scrolled {
+    background: #000 !important;
+    padding: 1px 0;
+}
+
+/* Logo Size */
+.logo-img {
+    height: 120px;
+    transition: 0.3s;
+}
+
+/* Shrink logo on scroll */
+.navbar-custom.scrolled .logo-img {
+    height: 120px;
+}
+
+/* Nav Links */
+.navbar-custom .nav-link {
+    color: #fff !important;
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+/* Mobile Fix */
+  /* @media (max-width: 991px) {
+    .navbar-custom {
+        background: black;
+    }
+}   */
+
+
+
+
+@media (max-width: 991px) {
+
+    .navbar-custom {
+        background: #000;
+        padding: 10px 0;
+    }
+
+    .logo-img {
+        height: 55px;
+    }
+
+    .navbar-collapse {
+        background: #000;
+        padding: 15px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    .navbar-nav {
+        width: 100%;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 6px 0;
+    }
+
+    .navbar-nav .nav-link {
+        padding: 10px;
+        font-size: 15px;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+}
+
+/* ===== MOBILE (<=768px) ===== */
+/* @media (max-width: 768px) {
+
+    .logo-img {
+        height: 50px;
+    }
+
+    .navbar-toggler {
+        padding: 4px 8px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 14px;
+        padding: 8px;
+    }
+} */
+
+/* ===== SMALL MOBILE (<=480px) ===== */
+/* @media (max-width: 480px) {
+
+    .logo-img {
+        height: 45px;
+    }
+
+    .navbar-custom {
+        padding: 8px 0;
+    }
+
+    .navbar-collapse {
+        padding: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 13px;
+        padding: 7px;
+    }
+}
+ */ 
+
+/* <<<<<<<<<page header>>>>>>>>>> */
+.page-header {
+    position: relative;
+
+ background-image: url("../img/thankyou.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+background-attachment: no-repeat;
+
+    min-height:450px;
+    padding: 80px 0;
+    color: #fff;
+}
+
+/* Overlay for better text visibility */
+.page-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background: rgba(0, 0, 0, 0.6); */
+      /* background: rgba(0, 0, 0, 0.6); */
+}
+
+.page-header .container {
+    position: relative;
+    z-index: 2;
+}
+
+.page-title {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* Breadcrumb styling */
+.breadcrumb-custom a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.breadcrumb-custom a:hover {
+    color: #f1c40f;
+}
+
+/* 📱 Mobile Optimization */
+@media (max-width: 768px) {
+    .page-header {
+        padding: 60px 0;
+        text-align: center;
+    }
+
+    .page-title {
+        font-size: 28px;
+    }
+
+    .breadcrumb-custom a {
+        font-size: 14px;
+    }
+}
+
+/* <<<<<<<<<<<<page header end<<<<<<<<< */
+.contact {
+  background: #f9f9f9;
+}
+
+/* Contact Info */
+.contact-info {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.contact-item {
+  gap: 15px;
+}
+
+.contact-icon {
+  font-size: 28px;
+  color: #0d6efd;
+  min-width: 40px;
+}
+
+/* Contact Form */
+.contact-form {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.form-control {
+  height: 50px;
+  border-radius: 8px;
+}
+
+textarea.form-control {
+  height: auto;
+}
+
+/* Button */
+.btn-primary {
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+  .contact-info,
+  .contact-form {
+    padding: 20px;
+  }
+
+  .contact-item {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .section-header h2 {
+    font-size: 24px;
+  }
+}
