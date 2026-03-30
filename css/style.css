@@ -1458,6 +1458,15 @@ background-attachment: fixed;
 /*******************************/
 /********* Footer CSS **********/
 /*******************************/
+
+.gst{
+    margin: 2px;
+    color:  #e0b838;
+    font-size:20px;
+    font-weight: 700;
+}
+
+
 .footer {
     position: relative;
     margin-top: 0.6px;
